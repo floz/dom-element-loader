@@ -1,6 +1,6 @@
 # dom-element-loader
 
-The simpliest way to load your HTML as DOM element/node for Webpack 4+.
+The simplest way to load your HTML as DOM element/node for Webpack 4+.
 
 ## Usage
 
@@ -13,7 +13,7 @@ document.appendChild( ui )
 ```
 
 ```html
-<div class='sexy'>this div gonna be import in your js as DOM element</div>
+<div class='sexy'>this div gonna be imported in your js as DOM element</div>
 ```
 
 
@@ -37,7 +37,7 @@ module.exports = {
 
 ## How it works internaly & why ?
 
-Its the raw-loader using this extraStep : 
+It's the raw-loader using this extraStep: 
 
 ```js
 const domParser = document.createElement('div')
@@ -51,7 +51,7 @@ I used this snippet a lot while developping ui for modular tools and decided to 
 
 ## Other html & dom loaders : 
 * html-loader : very complete but export string and not a DOM node, so its a different usage
-* dom-loader : create an extra container & doesnt work on latest webpack
+* dom-loader : create an extra container & doesn't work on the latest webpack version
 
 ## Happy coding!
 
